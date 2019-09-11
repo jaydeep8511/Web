@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="testCases.LoginTest">
+        <methods>
+          <include name="verify_with_invalid_email_and_invalid_password"/>
+          <include name="verify_with_invalid_email_and_valid_password"/>
+          <include name="verify_email_validation_with_Invalid_email" invocation-numbers="3"/>
+          <include name="verify_with_valid_email_and_invalid_password"/>
+          <include name="teardown"/>
+          <include name="verify_with_valid_email_and_valid_password"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- testCases.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

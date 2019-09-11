@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Default suite]]]">
+  <test thread-count="5" name="Default test(failed)(failed)(failed)">
+    <classes>
+      <class name="testCases.ForgotPasswordTest">
+        <methods>
+          <include name="reset_Password_twice"/>
+          <include name="Verify_with_registered_email"/>
+          <include name="verify_email_validation_with_Invalid_email" invocation-numbers="3"/>
+          <include name="initialization"/>
+          <include name="reset_Password_successfully"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testCases.ForgotPasswordTest -->
+    </classes>
+  </test> <!-- Default test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Default suite]]] -->
